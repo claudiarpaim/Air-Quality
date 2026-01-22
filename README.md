@@ -128,21 +128,22 @@ A Rede Neural apresentou desempenho superior ao modelo linear, indicando que:
 
 # Estrutura do Repositório
 
-Air-Quality/
+Air-Quality/                
 │
-├── README.md
-├── requirements.txt
+├── README.md                       
+├── requirements.txt                      
 │
-├── notebooks/
-│   └── Air_Quality_final.ipynb
+├── notebook/                    
+│   └── Air_Quality_final.ipynb                   
 │
-├── figure/
-│   └── ├── distribuicao_alvo.png
-│       ├── correlação_c6h6.png
-│       ├── regressao_model.png
-│       └── mlp_model.png
+├── figure/                    
+│   └── ├── capa.png                
+        ├── distribuicao_alvo.png                      
+│       ├── correlação_c6h6.png                
+│       ├── regressao_model.png               
+│       └── mlp_model.png                 
 │
-└── .gitignore
+└── .gitignore                    
 
 # Como executar o Projeto
 
