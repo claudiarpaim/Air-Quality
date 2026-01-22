@@ -43,8 +43,10 @@ Construir e avaliar modelos preditivos capazes de estimar a concentração real 
 A análise da distribuição da concentração de benzeno permite compreender a variabilidade dos dados, identificar assimetrias e avaliar a adequação do problema à modelagem por regressão.
 
 <p align="center">
-  <img src="figure/correlação_c6h6.png" alt="Capa do projeto" width="500"/>
+  <img src="figure/correlação_c6h6.png" width="500"/>
 </p>
+
+A matriz de correlação evidencia as relações entre sensores, variáveis meteorológicas e a concentração de benzeno, auxiliando na compreensão do comportamento do sistema e na justificativa das escolhas de modelagem.
 
 ## 2. Pré-processamento
 
@@ -58,14 +60,18 @@ A análise da distribuição da concentração de benzeno permite compreender a 
 - Regressão Linear (baseline)
 
 <p align="center">
-  <img src="figure/regressao_model.png" alt="Capa do projeto" width="500"/>
+  <img src="figure/regressao_model.png" width="500"/>
 </p>
+
+A regressão linear foi utilizada como modelo baseline para avaliar o desempenho inicial e identificar limitações na captura de relações complexas entre os sensores e a concentração de benzeno.
   
 - Rede Neural do tipo MLP (Multilayer Perceptron)
 
 <p align="center">
-  <img src="figure/mlp_model.png" alt="Capa do projeto" width="500"/>
+  <img src="figure/mlp_model.png" width="500"/>
 </p>
+
+A rede neural do tipo MLP apresentou desempenho significativamente superior, demonstrando alta capacidade de capturar relações não lineares entre as variáveis preditoras e a concentração real de benzeno.
 
 ## 4. Avaliação dos Modelos
 
@@ -79,6 +85,7 @@ A análise da distribuição da concentração de benzeno permite compreender a 
 | Regressão Linear   | 1.181182 | 0.836396 | 0.974607 |
 | Rede Neural (MLP)  | 0.093018 | 0.057397 | 0.999843 |
   
+A rede neural apresentou redução significativa dos erros (RMSE e MAE) e aumento do coeficiente de determinação (R²), evidenciando sua superioridade em relação ao modelo linear para a modelagem da concentração de benzeno.
 
 # Modelos Utilizados
 
