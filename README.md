@@ -1,4 +1,9 @@
 # Air Quality Prediction using Neural Networks
+
+<p align="center">
+  <img src="figure/capa.png" alt="Capa do projeto" width="700"/>
+</p>
+
 # Visão Geral do Projeto
 
 Este projeto aplica técnicas de Ciência de Dados e Redes Neurais Artificiais para prever a concentração de Benzeno (C6H6) a partir de respostas de sensores químicos e variáveis meteorológicas. O estudo foi desenvolvido com foco em modelagem preditiva, comparação entre modelos lineares e não lineares e interpretação crítica dos resultados — seguindo boas práticas esperadas em um ambiente profissional.
@@ -31,6 +36,14 @@ Construir e avaliar modelos preditivos capazes de estimar a concentração real 
 - Identificação de valores ausentes
 - Análise estatística inicial
 
+<p align="center">
+  <img src="figure/distribuicao_alvo.png" alt="Capa do projeto" width="700"/>
+</p>
+
+<p align="center">
+  <img src="figure/correlação_c6h6.png" alt="Capa do projeto" width="700"/>
+</p>
+
 ## 2. Pré-processamento
 
 - Tratamento de valores ausentes
@@ -41,14 +54,29 @@ Construir e avaliar modelos preditivos capazes de estimar a concentração real 
 ## 3. Modelagem Preditiva
 
 - Regressão Linear (baseline)
+
+<p align="center">
+  <img src="figure/regressao_model.png" alt="Capa do projeto" width="700"/>
+</p>
+  
 - Rede Neural do tipo MLP (Multilayer Perceptron)
+
+<p align="center">
+  <img src="figure/mlp_model.png" alt="Capa do projeto" width="700"/>
+</p>
 
 ## 4. Avaliação dos Modelos
 
 - RMSE
 - MAE
 - R²
-- Comparação entre modelos
+- Comparação de Desempenho dos Modelos
+
+| Modelo             | RMSE     | MAE      | R²       |
+|--------------------|----------|----------|----------|
+| Regressão Linear   | 1.181182 | 0.836396 | 0.974607 |
+| Rede Neural (MLP)  | 0.093018 | 0.057397 | 0.999843 |
+  
 
 # Modelos Utilizados
 
