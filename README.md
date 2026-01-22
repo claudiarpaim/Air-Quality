@@ -138,7 +138,7 @@ Air-Quality/
 │
 ├── figure/                    
 │   └── ├── capa.png                
-        ├── distribuicao_alvo.png                      
+│       ├── distribuicao_alvo.png                      
 │       ├── correlação_c6h6.png                
 │       ├── regressao_model.png               
 │       └── mlp_model.png                 
