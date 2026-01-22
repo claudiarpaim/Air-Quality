@@ -37,7 +37,7 @@ Construir e avaliar modelos preditivos capazes de estimar a concentração real 
 - Análise estatística inicial
 
 <p align="center">
-  <img src="figure/distribuicao_alvo.png" width="500"/>
+  <img src="figure/distribuicao_alvo.png" width="600"/>
 </p>
 <p align="center">
   <small><strong>Figura 1.</strong> Distribuição da variável alvo (Concentração de Benzeno)</small>
@@ -46,7 +46,7 @@ Construir e avaliar modelos preditivos capazes de estimar a concentração real 
 A análise da distribuição da concentração de benzeno permite compreender a variabilidade dos dados, identificar assimetrias e avaliar a adequação do problema à modelagem por regressão.
 
 <p align="center">
-  <img src="figure/correlação_c6h6.png" width="500"/>
+  <img src="figure/correlação_c6h6.png" width="600"/>
 </p>
 <p align="center">
   <small><strong>Figura 2.</strong> Heatmap de correlação entre sensores e variáveis ambientais</small>
@@ -66,7 +66,7 @@ A matriz de correlação evidencia as relações entre sensores, variáveis mete
 - Regressão Linear (baseline)
 
 <p align="center">
-  <img src="figure/regressao_model.png" width="500"/>
+  <img src="figure/regressao_model.png" width="600"/>
 </p>
 <p align="center">
   <small><strong>Figura 3.</strong> Valores reais vs preditos – Modelo Regressão Linear</small>
@@ -77,7 +77,7 @@ A regressão linear foi utilizada como modelo baseline para avaliar o desempenho
 - Rede Neural do tipo MLP (Multilayer Perceptron)
 
 <p align="center">
-  <img src="figure/mlp_model.png" width="500"/>
+  <img src="figure/mlp_model.png" width="600"/>
 </p>
 <p align="center">
   <small><strong>Figura 4.</strong> Valores reais vs preditos – Modelo MLP</small>
