@@ -37,11 +37,11 @@ Construir e avaliar modelos preditivos capazes de estimar a concentração real 
 - Análise estatística inicial
 
 <p align="center">
-  <img src="figure/distribuicao_alvo.png" alt="Capa do projeto" width="700"/>
+  <img src="figure/distribuicao_alvo.png" alt="Capa do projeto" width="500"/>
 </p>
 
 <p align="center">
-  <img src="figure/correlação_c6h6.png" alt="Capa do projeto" width="700"/>
+  <img src="figure/correlação_c6h6.png" alt="Capa do projeto" width="500"/>
 </p>
 
 ## 2. Pré-processamento
@@ -56,13 +56,13 @@ Construir e avaliar modelos preditivos capazes de estimar a concentração real 
 - Regressão Linear (baseline)
 
 <p align="center">
-  <img src="figure/regressao_model.png" alt="Capa do projeto" width="700"/>
+  <img src="figure/regressao_model.png" alt="Capa do projeto" width="500"/>
 </p>
   
 - Rede Neural do tipo MLP (Multilayer Perceptron)
 
 <p align="center">
-  <img src="figure/mlp_model.png" alt="Capa do projeto" width="700"/>
+  <img src="figure/mlp_model.png" alt="Capa do projeto" width="500"/>
 </p>
 
 ## 4. Avaliação dos Modelos
@@ -80,10 +80,10 @@ Construir e avaliar modelos preditivos capazes de estimar a concentração real 
 
 # Modelos Utilizados
 
-##🔹 Regressão Linear (Baseline)
+🔹 Regressão Linear (Baseline)
 Modelo utilizado como referência para avaliar ganhos obtidos com modelos não lineares.
 
-##🔹 Rede Neural Artificial (MLP)
+🔹 Rede Neural Artificial (MLP)
 
 - Arquitetura feedforward
 - Funções de ativação não lineares
