@@ -1,4 +1,4 @@
-# Air Quality Prediction using Neural Networks
+# Previsão da Qualidade do Ar Usando Redes Neurais
 
 <p align="center">
   <img src="figure/capa.png" alt="Capa do projeto" width="700"/>
@@ -155,6 +155,6 @@ jupyter notebook notebook/Air_Quality_final.ipynb
 ## Cláudia Rosa
 Cientista de Dados Júnior | Química Ambiental
 
-LinkedIn: (linkedin.com/in/claudia-rosa-datascience)
-
+LinkedIn: https://www.linkedin.com/in/claudiarpaim  
+Email: claudiarpaim@gmail.com
 
