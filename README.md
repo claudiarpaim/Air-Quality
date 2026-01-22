@@ -18,7 +18,7 @@ Construir e avaliar modelos preditivos capazes de estimar a concentração real 
 - Variáveis meteorológicas
 - Técnicas de Machine Learning e Redes Neurais
 
-## Dataset
+# Dataset
 
 - **Fonte**: UCI Machine Learning Repository – Air Quality Dataset
 - **Nome**: Air Quality Dataset
@@ -115,3 +115,46 @@ Modelo utilizado como referência para avaliar ganhos obtidos com modelos não l
 A Rede Neural apresentou desempenho superior ao modelo linear, indicando que:
 - A relação entre sensores e concentração de benzeno não é puramente linear
 - Modelos baseados em ANN são mais adequados para esse tipo de problema ambiental
+
+# Visualizações
+
+## O projeto inclui gráficos como:
+
+- Distribuição das variáveis
+- Distribuição da variável alvo
+- Heatmap de correlação
+- Valores reais vs preditos – Regressão Linear/Redes Neurais
+- Resíduos vs Previsões - Regressão Linear/Redes Neurais
+
+# Estrutura do Repositório
+
+Air-Quality/
+│
+├── README.md
+├── requirements.txt
+│
+├── notebooks/
+│   └── Air_Quality_final.ipynb
+│
+├── figure/
+│   └── ├── distribuicao_alvo.png
+│       ├── correlação_c6h6.png
+│       ├── regressao_model.png
+│       └── mlp_model.png
+│
+└── .gitignore
+
+# Como executar o Projeto
+
+git clone https://github.com/claudiarpaim/Air-Quality.git                                          
+pip install -r requirements.txt                                             
+jupyter notebook notebook/Air_Quality_final.ipynb  
+
+# Autora
+
+## Cláudia Rosa
+Cientista de Dados Júnior | Química Ambiental
+
+LinkedIn: (linkedin.com/in/claudia-rosa-datascience)
+
+
