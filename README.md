@@ -37,8 +37,10 @@ Construir e avaliar modelos preditivos capazes de estimar a concentração real 
 - Análise estatística inicial
 
 <p align="center">
-  <img src="figure/distribuicao_alvo.png" alt="Capa do projeto" width="500"/>
+  <img src="figure/distribuicao_alvo.png" width="500"/>
 </p>
+
+A análise da distribuição da concentração de benzeno permite compreender a variabilidade dos dados, identificar assimetrias e avaliar a adequação do problema à modelagem por regressão.
 
 <p align="center">
   <img src="figure/correlação_c6h6.png" alt="Capa do projeto" width="500"/>
