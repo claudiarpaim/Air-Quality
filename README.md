@@ -156,6 +156,6 @@ jupyter notebook notebook/Air_Quality_final.ipynb
 ## Cláudia Rosa
 Cientista de Dados Júnior | Química Ambiental
 
-LinkedIn: https://www.linkedin.com/in/claudiarpaim  
+LinkedIn: https://www.linkedin.com/in/claudia-rosa-datascience                               
 Email: claudiarpaim@gmail.com
 
